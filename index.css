@@ -1,0 +1,143 @@
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sahara_Desert_Sunset.JPG/1200px-Sahara_Desert_Sunset.JPG?20150528094736);
+}
+
+.nav{
+    float: right;
+    margin-top: 3vh;
+    word-spacing: 10%;
+    font-size: medium;
+}
+
+.sahara{
+    color: white;
+    width: 40em;
+    height:20em ;
+    position: absolute;
+    top: 10em;
+    left: 5em;
+    float: left;
+}
+
+.button{
+    width: 12em;
+    border-radius: 18px;
+    padding: 10px;
+    border: none;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid: gap 30px;
+    float: right;
+    clear: right;
+    margin: 50px 120px;
+}
+
+.box1{
+    height:220px ;
+    width: 180px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cb/Libya_4985_Tadrart_Acacus_Luca_Galuzzi_2007.jpg);
+    background-size: cover;
+    border-radius: 15px;  
+}
+
+
+.box1:hover{
+    transform: translateY(-10px);
+}
+
+.box2{
+    height:220px ;
+    width: 180px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cb/Libya_4985_Tadrart_Acacus_Luca_Galuzzi_2007.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.box2:hover{
+    transform: translateY(-10px);
+}
+
+.box3{
+    height:220px ;
+    width: 180px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cb/Libya_4985_Tadrart_Acacus_Luca_Galuzzi_2007.jpg);
+    background-size:cover;
+    border-radius: 15px;
+}
+.box3:hover{
+    transform: translateY(-10px);
+}
+.box4{
+    height:220px ;
+    width: 180px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cb/Libya_4985_Tadrart_Acacus_Luca_Galuzzi_2007.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    
+}
+.box4:hover{
+    transform: translateY(-10px);
+}
+
+@media only screen and (min-width:300px) and (max-width:900px){
+    body{
+        background-image: url(data:image/jpeg;base64,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);
+        background-size: cover;
+    
+    }
+    .nav{
+        
+        float: right; 
+        margin-right: 15vh; 
+       
+    }
+
+    .box-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+        position: absolute;
+        top: 23em;
+        left: -3.5em;
+        right: 1em;
+        text-align: center;
+        
+     
+    }
+
+    .box1:hover{
+        transform: translateY(-10px);
+    }
+    .box2{
+       
+       
+        background-image: url(./pic-2.png);
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .box2:hover{
+        transform: translateY(-10px);
+    }
+    .box3{
+       
+      
+        background-image: url(./pic-3.png);
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .box3:hover{
+        transform: translateY(-10px);
+    }
+    .box4{
+       
+        background-image: url(./pic-4.png);
+        background-size: cover;
+        border-radius: 15px;
+        
+    }
+    .box4:hover{
+        transform: translateY(-10px);
+    }
+}
